@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- NuGet 包元数据 -->
+    <PackageId>dmfExtension.Core</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>dmf</Authors>
+    <Description>一个安全的类型转换和字符串扩展工具类库，支持 object 转 string/bool/int，以及安全的字符串分割为 List</Description>
+    <PackageTags>extension, helper, conversion, string, split, utility</PackageTags>
+    <PackageProjectUrl>https://github.com/dingmingfei-stack/dmf-sdk-tools</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dingmingfei-stack/dmf-sdk-tools</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+</Project>
